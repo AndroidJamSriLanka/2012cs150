@@ -3,19 +3,12 @@
 Final Project Idea1
 
 Need : 
-	Simple Android app to Blood Bank
+
+	Simple Android app to convert different units
 	
 What are the features in App :
-	Able to view currently available blood groups
-	Able to view details of people who like to donate blood 
-	
 
+	User can select the category and unit
+	Then enter the value he want to convert
+	App will simply display all available units related to the selected category
 	
-Final Project Idea2
-
-Need : 
-	Simple Android app to get details of Rest Houses
-	
-What are the features in App :
-	User can enter just place then app will display rest houses,holiday resorts in that area
-	Able to view details of those rest houses
