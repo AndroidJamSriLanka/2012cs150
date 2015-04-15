@@ -12,3 +12,7 @@ What are the features in App :
 	Then enter the value he want to convert
 	App will simply display all available units related to the selected category
 	
+	
+API used in UnitConverter app
+		http://converter.eu/api/
+	
