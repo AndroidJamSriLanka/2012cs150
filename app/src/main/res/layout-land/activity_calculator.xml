@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         android:orientation="vertical"
         android:textAlignment="center"
         android:id="@+id/mainbar">
@@ -20,7 +20,7 @@
             <EditText
                 android:id="@+id/text1"
                 android:layout_width="306dp"
-                android:layout_height="75dp"
+                android:layout_height="33dp"
                 android:background="@android:color/white"
                 android:textAlignment="center"
                 android:phoneNumber="false"
@@ -38,15 +38,16 @@
 
         <LinearLayout
             android:orientation="horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="30dp"
-            android:id="@+id/subbar2">
+            android:id="@+id/subbar2"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
 
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
-                android:layout_height="83dp"
+                android:layout_height="wrap_content"
                 android:background="@android:color/white"
                 android:text="UnitConverter "
                 android:textAlignment="center"
@@ -74,13 +75,12 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="95dp"
-                android:layout_weight="1.0">
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
 
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:id="@+id/b1"
                     android:src="@drawable/one"
                     android:adjustViewBounds="false"
@@ -90,40 +90,35 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
-                android:layout_weight="1.0">
+                android:layout_height="10dp"
+                android:layout_weight="1.0"
+                android:weightSum="1">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="50dp"
                     android:id="@+id/b4"
                     android:src="@drawable/four"
                     android:background="#fffffcf6" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="96dp"
-                android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
+                    android:layout_width="204dp"
                     android:layout_height="match_parent"
                     android:id="@+id/b7"
                     android:src="@drawable/seven"
                     android:background="#fffffcf6" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
-                android:layout_weight="1.0">
+                android:layout_height="57dp"
+                android:weightSum="1">
 
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="90dp"
                     android:id="@+id/bdec"
                     android:src="@drawable/decimal"
                     android:background="#fffdfff8" />
@@ -140,11 +135,11 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="95dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
+                    android:layout_width="204dp"
                     android:layout_height="match_parent"
                     android:id="@+id/b2"
                     android:src="@drawable/two"
@@ -155,11 +150,11 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
+                    android:layout_width="204dp"
                     android:layout_height="match_parent"
                     android:id="@+id/b5"
                     android:src="@drawable/five"
@@ -169,11 +164,11 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
+                    android:layout_width="204dp"
                     android:layout_height="match_parent"
                     android:id="@+id/b8"
                     android:src="@drawable/eight"
@@ -183,11 +178,11 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
+                    android:layout_width="204dp"
                     android:layout_height="match_parent"
                     android:id="@+id/b0"
                     android:src="@drawable/zero"
@@ -205,7 +200,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="95dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton
@@ -220,7 +215,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
 
@@ -235,7 +230,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton
@@ -249,7 +244,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:layout_weight="1.0">
 
                 <ImageButton

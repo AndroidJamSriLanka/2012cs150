@@ -6,16 +6,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="177dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textAlignment="center">
 
         <TextView
             android:id="@+id/text1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="61dp"
             android:background="#5afafafa"
-            android:layout_weight="1.0"
             android:text="Choose a Category"
             android:phoneNumber="false"
             android:singleLine="false"
@@ -44,8 +43,8 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/lengthconv"
                     android:src="@drawable/length"
                     android:adjustViewBounds="false" />
@@ -58,10 +57,10 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/speedconv"
-                    android:src="@drawable/speed"/>
+                    android:src="@drawable/speed" />
             </LinearLayout>
 
             <LinearLayout
@@ -71,8 +70,8 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/timeconv"
                     android:src="@drawable/time"/>
             </LinearLayout>
@@ -92,10 +91,10 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/weightconv"
-                    android:src="@drawable/weight"/>
+                    android:src="@drawable/weight" />
             </LinearLayout>
 
             <LinearLayout
@@ -105,11 +104,10 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/moneyconv"
-                    android:src="@drawable/currency"
-                    android:background="#ff4969ff" />
+                    android:src="@drawable/currency" />
             </LinearLayout>
 
             <LinearLayout
@@ -119,10 +117,10 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/areaconv"
-                    android:src="@drawable/area"/>
+                    android:src="@drawable/area_land" />
             </LinearLayout>
 
         </LinearLayout>
@@ -140,10 +138,11 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/volonv"
-                    android:src="@drawable/volume" />
+                    android:src="@drawable/volume"
+                    android:adjustViewBounds="false" />
             </LinearLayout>
 
             <LinearLayout
@@ -153,10 +152,10 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/tempconv"
-                    android:src="@drawable/temp"/>
+                    android:src="@drawable/temp" />
             </LinearLayout>
 
             <LinearLayout
@@ -166,8 +165,8 @@
                 android:layout_weight="1.0">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="204dp"
+                    android:layout_height="72dp"
                     android:id="@+id/powerconv"
                     android:src="@drawable/power"/>
             </LinearLayout>
