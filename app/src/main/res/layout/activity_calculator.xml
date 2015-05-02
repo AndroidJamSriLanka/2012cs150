@@ -7,21 +7,56 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:orientation="horizontal"
-        android:textAlignment="center">
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:id="@+id/mainbar">
 
-        <TextView
-            android:id="@+id/text1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/white"
-            android:layout_weight="1.0"
-            android:text="UnitConverter "
-            android:textAlignment="center"
-            android:phoneNumber="false"
-            android:singleLine="false"
-            android:textColor="#ffd02bff"
-            android:textSize="35dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subbar1">
+
+            <EditText
+                android:id="@+id/text1"
+                android:layout_width="306dp"
+                android:layout_height="75dp"
+                android:background="@android:color/white"
+                android:textAlignment="center"
+                android:phoneNumber="false"
+                android:singleLine="false"
+                android:textColor="#ffd02bff"
+                android:textSize="35dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:id="@+id/subbar2">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:background="@android:color/white"
+                android:text="UnitConverter "
+                android:textAlignment="center"
+                android:phoneNumber="false"
+                android:singleLine="false"
+                android:textColor="#ffd02bff"
+                android:textSize="35dp"
+                android:paddingTop="30dp" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -46,9 +81,10 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton"
-
-                    android:adjustViewBounds="false" />
+                    android:id="@+id/b1"
+                    android:src="@drawable/one"
+                    android:adjustViewBounds="false"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -60,7 +96,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton1" />
+                    android:id="@+id/b4"
+                    android:src="@drawable/four"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -72,7 +110,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton2" />
+                    android:id="@+id/b7"
+                    android:src="@drawable/seven"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -84,7 +124,7 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton3" />
+                    android:id="@+id/bdec" />
             </LinearLayout>
 
         </LinearLayout>
@@ -104,9 +144,10 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton4"
-
-                    android:adjustViewBounds="false" />
+                    android:id="@+id/b2"
+                    android:src="@drawable/two"
+                    android:adjustViewBounds="false"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -118,7 +159,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton5"/>
+                    android:id="@+id/b5"
+                    android:src="@drawable/five"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -130,7 +173,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton6" />
+                    android:id="@+id/b8"
+                    android:src="@drawable/eight"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -142,7 +187,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton7" />
+                    android:id="@+id/b0"
+                    android:src="@drawable/zero"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
         </LinearLayout>
@@ -162,9 +209,10 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton8"
-
-                    android:adjustViewBounds="false" />
+                    android:id="@+id/b3"
+                    android:src="@drawable/three"
+                    android:adjustViewBounds="false"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -177,7 +225,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton9"/>
+                    android:id="@+id/b6"
+                    android:src="@drawable/six"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -189,7 +239,9 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton10" />
+                    android:id="@+id/b9"
+                    android:src="@drawable/nine"
+                    android:background="#fffffcf6" />
             </LinearLayout>
 
             <LinearLayout
@@ -201,7 +253,7 @@
                 <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/imageButton11" />
+                    android:id="@+id/bback" />
             </LinearLayout>
 
         </LinearLayout>
